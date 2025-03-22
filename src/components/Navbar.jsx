@@ -1,4 +1,8 @@
 import React from 'react'
+import blogs from './blog/blogs.jsx'
+import about from './about/about.jsx'
+import contact from './contact/contact.jsx'
+import login from './login/login.jsx'
 
 const navbar = () => {
   return (

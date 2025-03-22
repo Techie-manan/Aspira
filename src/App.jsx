@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
-import about from './components/about/about.jsx'
-import blogs from './components/blog/blogs.jsx'
-import contact from './components/contact/contact.jsx'
-import login from './components/login/login.jsx'
+import About from './components/about/about.jsx'
+import Blogs from './components/blog/blogs.jsx'
+import Contact from './components/contact/contact.jsx'
+import Login from './components/login/login.jsx'
 import './App.css'
 // import 'animate.css';
 
@@ -33,10 +33,12 @@ function App() {
           <img className='rounded-xl object-cover  h-[35vh]' src="https://lh3.googleusercontent.com/p/AF1QipPHgbckWlVwLvr2f3yUs3ckY1YINN_m2VMEDdH_=s680-w680-h510" />
         </div>
       </div>
-      <about />
-      <blogs />
-      <contact />
-      <login />
+
+      
+      <About />
+      <Blogs />
+      <Contact />
+      <Login />
     </>
   )
 }
