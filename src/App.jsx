@@ -1,5 +1,9 @@
 import { useState } from 'react'
 import Navbar from './components/Navbar.jsx'
+import about from './components/about/about.jsx'
+import blogs from './components/blog/blogs.jsx'
+import contact from './components/contact/contact.jsx'
+import login from './components/login/login.jsx'
 import './App.css'
 // import 'animate.css';
 
@@ -18,7 +22,7 @@ function App() {
           Platform made by the Students for the Students...
         </div>
       </div>
-      <div className="flex p-3 px-5 w-[90vw] h-[35vh] justify-around hover:scale-105 transition duration-500 ease-in-out"> 
+      <div className="flex p-3 px-5 w-[90vw] h-[35vh] justify-around hover:scale-105 transition duration-500 ease-in-out">
         <div className='w-1/2 m-7'>
           <h1 className='text-3xl '>Find the Right University & Documents in Minutes!</h1>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis, enim commodi! Facere mollitia explicabo ex impedit quis perspiciatis voluptatem animi, et eaque porro tempora possimus quod recusandae, harum qui? Nostrum?
@@ -29,7 +33,10 @@ function App() {
           <img className='rounded-xl object-cover  h-[35vh]' src="https://lh3.googleusercontent.com/p/AF1QipPHgbckWlVwLvr2f3yUs3ckY1YINN_m2VMEDdH_=s680-w680-h510" />
         </div>
       </div>
-
+      <about />
+      <blogs />
+      <contact />
+      <login />
     </>
   )
 }
